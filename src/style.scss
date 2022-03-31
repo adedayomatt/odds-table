@@ -1,0 +1,35 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-odds-table {
+	padding: 2px;
+	overflow-x: auto;
+}
+
+.wp-block-create-block-odds-table .filter-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 5px;
+}
+.wp-block-create-block-odds-table .odds-table .teams-container{
+	width: 20%
+}
+
+.wp-block-create-block-odds-table .odds-table .bookmakers-container{
+	width: 80%;
+	overflow-x: auto;
+}
+
+.wp-block-create-block-odds-table .odds-table td {
+	padding: 5px;
+}
+
+.wp-block-create-block-odds-table .odds-table tr.bg{
+	background-color: #21759b;
+	color: #fff;
+}
