@@ -1,0 +1,1 @@
+Ensure to copy `src/config.example.js` to `src/config.js` and fill in your API key from  [TheOdds API](https://the-odds-api.com/)
